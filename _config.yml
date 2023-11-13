@@ -3,10 +3,10 @@ email: lgarciavelazquez@educantabria.es
 baseurl: /myblog3
 url: https://lgarciavelazquez.github.io
 collections:
-   authors:
-     output: true
-   pages:
-     output: true  
+  authors:
+    output: true
+  pages:
+    output: true  
 
 defaults:
     - scope:
@@ -24,6 +24,7 @@ defaults:
       values:
          layout: "default" 
 
- plugins:
+plugins:
    - jekyll-feed
+   - jekyll-sitemap
    - jekyll-seo-tag       
