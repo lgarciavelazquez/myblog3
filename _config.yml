@@ -2,7 +2,7 @@ collections:
    authors:
      output: true
    pages:
-      output: true  
+     output: true  
 
 defaults:
     - scope:
