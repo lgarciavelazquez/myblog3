@@ -1,0 +1,13 @@
+- name: inicio
+  link: /
+- name: Acerca de
+  link: /about.html 
+- name: Blog
+  link: /blog.html
+- name: Autores
+  link: /staff.html
+- name: pagina
+  link: /pages/pagina.html
+- name: pagina2
+  link: /pages/pagina2.html
+ 
