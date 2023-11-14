@@ -5,8 +5,9 @@
     <head>
         <meta charset=""utf-8">
         <title>{{page.title}}</title>
-        <!--<link rel="stylesheet" href="/assets/css/styles.css">-->
-        <link rel="stylesheet" href="{{ site.url | append: "/assets/css/styles.css"}}">
+        <!--<link rel="stylesheet" href="assets/css/styles.css">-->
+         <!--Para no tener problemas cambiar site.url por site.base.url-->
+        <link rel="stylesheet" href="{{ site.baseurl | append: "/assets/css/styles.css"}}">
     </head>
     <body>
            {% include navigation.html %}
